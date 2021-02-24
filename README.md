@@ -5,4 +5,4 @@ It requires you to get Azure Communication Services Access Key in oder to format
 The detailed steps are documented in https://docs.microsoft.com/en-us/rest/api/communication/sms/send
 and https://docs.microsoft.com/en-us/rest/api/communication/authentication#signing-an-http-request
 
-This is a code written sample in C# to demo a flow on SMS raw REST call.
+This is a code sample in C# to demo a flow on both SMS and Token raw REST call.
