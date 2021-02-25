@@ -1,0 +1,12 @@
+F:\ACS\git\RestACSClient\bin\Debug\Restclient.exe.config
+F:\ACS\git\RestACSClient\bin\Debug\Restclient.exe
+F:\ACS\git\RestACSClient\bin\Debug\Restclient.pdb
+F:\ACS\git\RestACSClient\bin\Debug\Newtonsoft.Json.dll
+F:\ACS\git\RestACSClient\bin\Debug\Newtonsoft.Json.xml
+F:\ACS\git\RestACSClient\obj\Debug\RestACSClient.csprojAssemblyReference.cache
+F:\ACS\git\RestACSClient\obj\Debug\CSharpHTTP.Form1.resources
+F:\ACS\git\RestACSClient\obj\Debug\RestACSClient.csproj.GenerateResource.cache
+F:\ACS\git\RestACSClient\obj\Debug\RestACSClient.csproj.CoreCompileInputs.cache
+F:\ACS\git\RestACSClient\obj\Debug\RestACSClient.csproj.CopyComplete
+F:\ACS\git\RestACSClient\obj\Debug\Restclient.exe
+F:\ACS\git\RestACSClient\obj\Debug\Restclient.pdb

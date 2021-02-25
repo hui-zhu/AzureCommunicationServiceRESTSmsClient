@@ -633,6 +633,7 @@ namespace CSharpHTTP
             this.txtURL.Size = new System.Drawing.Size(471, 22);
             this.txtURL.TabIndex = 4;
             this.txtURL.Text = "https://hughacs.communication.azure.com/sms?api-version=2020-07-20-preview1";
+            this.txtURL.TextChanged += new System.EventHandler(this.txtURL_TextChanged);
             // 
             // rbGet
             // 
@@ -1124,6 +1125,14 @@ namespace CSharpHTTP
             txtPostData.Text = "{\r\n    \"from\": \"+18445792722\",\r\n    \"to\": [\r\n        \"+19729xxxxxx\"\r\n    ],\r\n    " +
                     "\"message\": \"Hello World via ACS Sms\",\r\n    \"sendSmsOptions\": {\r\n        \"enableD" +
                     "eliveryReport\": true\r\n    }\r\n}";
+        }
+
+        private void txtURL_TextChanged(object sender, EventArgs e)
+        {
+            if (txtURL.Text.Contains(".communication.azure.com"))
+            {
+                host = txtURL.Text.Substring(0, txtURL.Text.IndexOf(".communication.azure.com"));
+            }
         }
     }
 
