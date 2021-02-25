@@ -1110,7 +1110,7 @@ namespace CSharpHTTP
         private void button3_Click(object sender, EventArgs e)
         {
             if (txtRawHtml.Text.Length > 1)
-            {
+            { 
                 txtRawHtml.Text = FormatJson(txtRawHtml.Text);
 
             }
